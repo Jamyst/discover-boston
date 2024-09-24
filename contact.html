@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Discover Boston Contact Page</title>
+ 
+</head>
+<body>
+ <h1>Contact</h1>
+ <form id="contactForm" action="" method="post" onsubmit="return validateForm()">
+    <fieldset class="firstFieldset">
+
+        <fieldset class="secondaryFieldset">
+            <div id="form1">
+                <div id="column1">
+                    <ul>
+                        <li><label for="name">Name:</label></li>
+                        <li><label for="email1">Email:</label></li>
+                        <li><label for="email2">Retype Email:</label></li>
+                        <li><label for="query">Query/Comment:</label></li>
+                    </ul>
+                </div> 
+                <div id="column2">
+                    <ul>
+                        <li><input type="text" name="name" size="23" id="name"><div class="error" id="nameError"></div></li>
+                        <li><input type="text" name="email1" id="email1"><div class="error" id="email1Error"></div></li>
+                        <li><input type="text" name="email2" id="email2"><div class="error" id="email2Error"></div></li>
+                        <li><textarea name="query" id="query" cols="40" rows="5"></textarea></li>
+                    </ul>
+                </div>
+            </div>  
+        </fieldset>
+        <p> <input type="submit" name="submit" id="submit" value="Submit"> <input type="reset" value="reset"> </p>
+
+    </fieldset>
+
+</form>
+</body>
+</html>
