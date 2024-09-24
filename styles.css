@@ -1,0 +1,120 @@
+body {
+    background: #14213d;
+    
+    color: #e5e5e5;
+    
+    text-align: center;
+    
+}
+
+.infoNav {background-color: #fca311; ; display:inline-block;}
+
+.infoNav a{display: inline-block;
+  color: #F7F6F4;
+  text-align: left;
+  padding: 1em;
+  text-decoration: none; font-size:1em; font-weight:bolder;
+color:black;}
+
+.infoNav a:hover {background-color: #e5e5e5; color:#262a38;}
+
+img {width:50%;}
+
+.bookingButton {background-color:#fca311; padding:0.1em;}
+
+.bookingButton a{text-decoration: none; color:#F7F6F4; color:black;}
+
+.bookingButton:hover {background-color: #e5e5e5; transform:scale(1.1); }
+
+form{
+    max-width: 600px;
+    margin: 20px auto;
+    color:black;
+    
+    
+}
+
+ 
+fieldset{
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 5em;
+    background-color: #ffffff ;
+    
+}
+
+#form1{ /* this is an example of  id selector */ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#column1,#column2{ /* this is an example of  id selector */ /* this is an example of  group selector */ 
+    width: 50%;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+    
+
+label{
+    display: block;
+    margin-bottom: 1.1em;
+    font-size: 18px;
+}
+#column1 label{
+    width: 100%;
+    padding: 6px;
+    font-size: 15px;
+   
+   
+}
+
+#column2 input{
+    width: 100%;
+    padding: 6px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#column2 textarea{
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input{
+    width: 10% ;
+    padding: 5px;
+    margin-right: 1em;
+    font-size: 15px;
+    border: 1px solid #8b8989;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#addressForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#address1, #address2{ /* this is an example of  group selector */ 
+    width: 48%;
+}
+p{padding-bottom: 1em;}
+
+h1{text-align: center;}
+
+h2{padding-bottom: 2em; font-size: 1em; font-weight: 600;}
+
+/* end form css */
+
